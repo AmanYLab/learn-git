@@ -25,9 +25,11 @@ git init commando is ran once per folder. What it does is , it initialize and   
 commit - check point(like game)
 
 Write code - Add to git tracking zone - Commit:
+
 			1.working Dir
 			    >		git add  ( When we use this command , we are adding the file into git tracking zone)
 			2.Staging Area
+            
 		             >  	git commit ( when committing any given file , it is must to add a message [ git commit -m ""]
 						     to uncommit a file: we use [ git rm --cached <filename>] )
 
