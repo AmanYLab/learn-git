@@ -29,7 +29,7 @@ Write code - Add to git tracking zone - Commit:
 			1.working Dir
 			    >		git add  ( When we use this command , we are adding the file into git tracking zone)
 			2.Staging Area
-            
+
 		             >  	git commit ( when committing any given file , it is must to add a message [ git commit -m ""]
 						     to uncommit a file: we use [ git rm --cached <filename>] )
 
@@ -54,7 +54,7 @@ The whole step soo far ( Using a commando ):
 # Git Branch:  at first there is always a *Main branch , then user can add otherbranches using the commando [git branch <branch-name>]
 After creating another branch: use [git checkout <branch-name>] to access the new branch.
 
-# If a Master branch creates other branches that does other works , until they begin working seperatly , both branches of the master and new branch will be the same or have the same content , id etc...  . If one user uses the Master branch , the other branches work will be cleared by defualt and vise versa.
+If a Master branch creates other branches that does other works , until they begin working seperatly , both branches of the master and new branch will be the same or have the same content , id etc...  . If one user uses the Master branch , the other branches work will be cleared by defualt and vise versa.
 
 
 The HEAD alwasy points to where branch is currently at.
